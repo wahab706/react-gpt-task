@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export function Input(props) {
-  const BASE_URL = "http://127.0.0.1:8000/text/";
+  const BASE_URL = "http://64.226.89.243:86/text/";
   const { messagesList, setMessagesList, setLoading } = props;
 
   const [value, setValue] = useState("");
