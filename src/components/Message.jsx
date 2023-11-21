@@ -23,7 +23,7 @@ export function Message({ message }) {
         ) : (
           <ReactAudioPlayer
             controls
-            // autoPlay
+            preload="auto"
             controlsList="nodownload"
             src={message.content}
           />
